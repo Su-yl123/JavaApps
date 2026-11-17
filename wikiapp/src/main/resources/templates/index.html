@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fuzhou Melbourne Polytechnic</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        /* 头部导航栏 */
+        header {
+            background-color: #003b70;
+            color: white;
+            padding: 20px 40px;
+            border-bottom: 4px solid #ffb800;
+        }
+        .header-top{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom:15px;
+        }
+        .header-title h1{
+            font-size:24px;
+        }
+        .header-title p{
+            font-size:14px;
+            opacity:0.9;
+        }
+        .header-tag{
+            background-color:#00509c;
+            padding:8px 14px;
+            border-radius:20px;
+            font-size:14px;
+        }
+        nav a{
+            color:white;
+            text-decoration:none;
+            margin-right:20px;
+            font-size:15px;
+        }
+        nav a:hover{
+            color:#ffb800;
+        }
+
+        /* 主体内容 */
+        main{
+            padding:40px;
+            background-color:#f0f6fc;
+            display:grid;
+            grid-template-columns: 1fr 1fr;
+            gap:30px;
+            align-items: start;
+        }
+        .content-left h2{
+            font-size:32px;
+            color:#002b4d;
+            margin-bottom:20px;
+        }
+        .content-left p{
+            color:#333;
+            line-height:1.7;
+            margin-bottom:25px;
+            max-width:550px;
+        }
+        .btn-group button{
+            padding:12px 24px;
+            border-radius:6px;
+            border:none;
+            font-size:15px;
+            margin-right:12px;
+            cursor:pointer;
+        }
+        .btn-explore{
+            background-color:#003b70;
+            color:white;
+        }
+        .btn-apply{
+            background-color:white;
+            color:#003b70;
+            border:2px solid #003b70 !important;
+        }
+
+        /* 右侧信息卡片 */
+        .info-card{
+            background-color:#003b70;
+            color:white;
+            padding:25px;
+            border-radius:12px;
+        }
+        .info-card h3{
+            margin-bottom:20px;
+        }
+        .facts-grid{
+            display:grid;
+            grid-template-columns: 1fr 1fr;
+            gap:16px;
+        }
+        .fact-item{
+            background-color:#00509c;
+            padding:16px;
+            border-radius:8px;
+        }
+        .fact-item .num{
+            font-size:22px;
+            font-weight:bold;
+            color:#ffd040;
+            margin:6px 0;
+        }
+    </style>
+</head>
+<body>
+<header>
+    <div class="header-top">
+        <div class="header-title">
+            <h1>Fuzhou Melbourne Polytechnic</h1>
+            <p>China · Australia · Since 2016</p>
+        </div>
+        <div class="header-tag">⚡ Dual degree · Global perspective</div>
+    </div>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Programs</a>
+        <a href="#">Admissions</a>
+        <a href="#">Campus</a>
+        <a href="#">Contact</a>
+    </nav>
+</header>
+
+<main>
+    <div class="content-left">
+        <h2>Where East meets South<br>Innovation & tradition</h2>
+        <p>
+            Fuzhou Melbourne Polytechnic brings together the best of Chinese and Australian education.
+            Earn a globally recognised dual degree, study in two vibrant cities, and join a community of future leaders.
+        </p>
+        <div class="btn-group">
+            <button class="btn-explore">Explore programs</button>
+            <button class="btn-apply">Apply now</button>
+        </div>
+    </div>
+
+    <div class="info-card">
+        <h3>📑 Quick facts</h3>
+        <div class="facts-grid">
+            <div class="fact-item">
+                <div>ESTABLISHED</div>
+                <div class="num">2016</div>
+            </div>
+            <div class="fact-item">
+                <div>STUDENTS</div>
+                <div class="num">3,200+</div>
+            </div>
+            <div class="fact-item">
+                <div>DUAL DEGREES</div>
+                <div class="num">12</div>
+            </div>
+            <div class="fact-item">
+                <div>PARTNER</div>
+                <div class="num">Melbourne Poly</div>
+            </div>
+        </div>
+    </div>
+</main>
+
+</body>
+</html>
